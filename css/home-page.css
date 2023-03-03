@@ -25,14 +25,86 @@ nav img {
 /*HEADER*/
 header {
     background-image: url("/img/headerimg.png");
-    background-position: center;
     background-repeat: no-repeat;
+    /*background-position: right;*/
     height: 650px;
     color: white;
     font-weight: bold;
 }
 
-header p {
-    background-color: red;
+header div {
+    color: white;
+    padding-top: 100px;
+    padding-left: 10%;
+}
+
+#txt-l1 {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+/*PAGE 1*/
+#first-page {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#first-page h1{
+    text-align: center;
+    font-size: 60px;
+    width: 80%;
+    margin: auto;
+}
+
+/*STAGE*/
+
+#stage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 10px;
+    padding-top: 75px;
+    margin: auto;
+}
+
+.sub-step {
+    width:30%;
+}
+
+.sub-step div:first-child{
+
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    /*height: 75px;*/
+}
+
+.sub-step h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.number {
+    color: #406732;
+    font-size: 80px;
+    margin-top: -10px;
+}
+
+.button-flex {
+   display: flex;
+    margin-top: 25px;
+}
+
+button {
+    margin: auto;
+}
+
+/* BANDEAU */
+#bandeau {
+    background-color: #5E8763;
+    height: 800px;
+    width: 100%;
     color: white;
 }
