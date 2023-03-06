@@ -84,27 +84,166 @@ header div {
 .sub-step h2 {
     font-size: 30px;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .number {
     color: #406732;
     font-size: 80px;
     margin-top: -10px;
+    margin-right: 10px;
 }
 
 .button-flex {
-   display: flex;
+    display: flex;
     margin-top: 25px;
 }
 
 button {
+    background-color: #53BF2D;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
     margin: auto;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0px 4px 8px #888888;
+    margin-bottom: 100px;
+}
+
+button:hover {
+    background-color: #58e327;
+    cursor: pointer;
+}
+
+button a{
+    color: white;
 }
 
 /* BANDEAU */
 #bandeau {
     background-color: #5E8763;
-    height: 800px;
+    height: 315px;
     width: 100%;
     color: white;
+}
+
+#bandeau h3 {
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+#bandeau h3, #bandeau p {
+    text-align: center;
+}
+
+#bandeau hr {
+    color: white;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+#container-card {
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.card {
+    width: 200px;
+    margin: auto;
+    padding-top: 50px;
+}
+.card .title {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.card img {
+    width: 15%;
+    margin-right: 10px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+/* PAGE 3*/
+#p3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#p3 h3 {
+    font-size: 50px;
+}
+
+#p3 #subtitle {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#p3 hr {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 179px;
+    color: black;
+}
+
+.container-card-click {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+.card-click {
+    border: 5px solid #5E8763;
+    border-radius: 10px;
+    width: 225px;
+    height: 300px;
+}
+
+.card-click:hover {
+    box-shadow: 0px 4px 8px #888888;
+    cursor: pointer;
+}
+
+.title-card {
+    font-size: 20px;
+}
+
+.space, .other-space {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.other-space {
+    padding-bottom: 33px;
+}
+
+.card-click p:last-child  {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 30px;
 }
