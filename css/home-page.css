@@ -46,7 +46,7 @@ header div {
     font-size: 45px;
 }
 
-#text-l2 {
+.text-l2 {
     font-size: 30px;
     font-weight: normal;
 }
@@ -387,7 +387,33 @@ footer {
 }
 
 @media (max-width: 700px) {
+    #visibility {
+        visibility: hidden;
+        height: 0;
+        padding: 0;
+        font-size: 0;
+        margin: 0;
+    }
+}
 
+@media (max-width: 550px) {
+    #first-page h1 {
+        font-size: 35px;
+        width: 90%;
+    }
+
+    #txt-l1 {
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    .text-l2 {
+        font-size: 25px;
+    }
+
+    #txt-l3, #free {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -404,23 +430,4 @@ footer {
         margin: auto;
         padding: 20px;
     }
-
-    #first-page h1 {
-        font-size: 35px;
-        width: 90%;
-    }
-
-    #txt-l1 {
-        font-weight: bold;
-        font-size: 35px;
-    }
-
-    #text-l2 {
-        font-size: 25px;
-    }
-
-    #txt-l3, #free {
-        font-size: 30px;
-    }
-
 }
