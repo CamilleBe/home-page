@@ -16,10 +16,6 @@ h3 {
   color: #4BB559;
 }
 
-#redirectory {
-  margin: auto;
-}
-
 /*HEADER*/
 header {
   background-image: url("/lpPompeChaleur/img/header.png");
@@ -118,21 +114,19 @@ header span {
 }
 
 
-#hbutton {
+#hbutton, #hinput {
   height: 50px;
   cursor: pointer;
   margin-top: 10px;
-}
-
-#hbutton[type="submit"] {
   font-weight: bold;
+  width: 150px;
 }
 
-#hbutton:hover {
+#hbutton:hover, #hinput {
   background-color: antiquewhite;
 }
 
-#fb input:nth-child(1), #fb input:nth-child(5){
+#fb input:nth-child(1), #fb input:nth-child(5) {
   width: 4%;
 }
 
